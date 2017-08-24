@@ -2,8 +2,12 @@
   "scripts": {
     "postinstall": "cd client && yarn install"
   },
-
   "name": "railsreact",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-router-dom": "^4.2.0",
+    "react-router-redux": "next",
+    "redux-thunk": "^2.2.0"
+  }
 }
